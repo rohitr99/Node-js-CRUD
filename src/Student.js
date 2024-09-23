@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'// hooks
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 function Student() {
