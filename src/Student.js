@@ -10,7 +10,7 @@ function Student() {
      .catch(err=>console.log(err));
     }, [])
 
-
+// window fn
 const handledelete = async(ID)=>{
 try{
     await axios.delete(`http://localhost:8000/student/${ID}`)
